@@ -1,0 +1,21 @@
+import java.util.*;
+public class Main
+{
+    public static int fact(int n,int facts)
+    {
+        if(n!=0)
+        {
+            facts=facts*n;
+            return fact(n-1,facts);
+            
+        }
+        return facts;
+    }
+	public static void main(String[] args) 
+	{
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		int facts=1;
+		System.out.print(fact(n,facts));
+	}
+}
