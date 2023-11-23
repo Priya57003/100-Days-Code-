@@ -27,7 +27,7 @@ class TestClass {
                 xor=res[j];
             }
             else
-            {
+            {      //last       //current
                 if(stack.peek()<res[j])
                 {
 
