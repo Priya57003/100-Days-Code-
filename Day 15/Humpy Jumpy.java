@@ -18,7 +18,6 @@ class TestClass {
         {
             Stack<Integer>stack=new Stack<>();
             int xor=0;
-            int last=0;
             for(int j=i;j<n;j++)
             {
 
