@@ -17,7 +17,7 @@ public class Main
 		while(It.hasNext())
 		{
 		    String str2=It.next();
-		    if(str2.equals("PriyaGowtham"))
+		    if(str2.equals("Priya"))
 		    {
 		        System.out.println("They Present inside");
 		    }
