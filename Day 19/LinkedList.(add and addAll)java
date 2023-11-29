@@ -1,0 +1,22 @@
+import java.util.*;
+public class Main
+{
+  public static void main (String[]args)
+  {
+    Scanner sc = new Scanner (System.in);
+      LinkedList < String > ll = new LinkedList <> ();
+      ll.add ("ABC");
+      ll.add ("def");
+      ll.add ("ghi");
+      System.out.println("LinkedList1:");
+	  System.out.println(ll);
+      LinkedList < String > ll2 = new LinkedList <> ();
+      ll2.add ("MNO");
+      ll2.add ("Pqr");
+    //Updation of element in Linked List
+      ll.addAll (ll2);
+      System.out.println ("Updation of LinkedList1:");
+      System.out.println (ll);
+
+  }
+}
