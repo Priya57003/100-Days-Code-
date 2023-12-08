@@ -4,9 +4,9 @@ public class Main
 	public static void main(String[] args)
 	{
 		Set<String> obj = new HashSet<>();
-		obj.add("Gowtham");
-		obj.add("Loves");
 		obj.add("Priya");
+		obj.add("Loves");
+		obj.add("Coding");
 		Iterator<String> it = obj.iterator();
 		while(it.hasNext())
 		{
