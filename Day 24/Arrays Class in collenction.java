@@ -10,3 +10,4 @@ public class Main
 		System.out.println(res);
 	}
 }
+//Logic here is elements in arrays is to be in same place in both arrays a[0]==b[0]
